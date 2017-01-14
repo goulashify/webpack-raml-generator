@@ -56,7 +56,10 @@ const api = new Friends({ baseUri: BASE_URI });
 api.friend.get()
   .then(({body: body, status: status}) => console.log(status, body));
   
-api.friend.byId({ byId: 3 }).get().then(cb); 
+api.friend.byId({ byId: 3 }).get().then(cb);
+api.friend.magic({ name: 'a', type: 'b' }).get().then(cb);
+
+api.friend.post(null, { name: 'Willie the pimp' });
 ```
 
 
