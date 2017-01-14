@@ -1,0 +1,20 @@
+{
+  "name": "webpack-raml-generator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/danigulyas/webpack-raml-generator",  
+  "description": "Webpack loader to convert raml files into callable api classes, works with RAML 1.0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Gulyas <hello@danielgulyas.me>",
+  "license": "WTFPL",
+  "dependencies": {
+    "client-oauth2": "^2.1.0",
+    "popsicle": "^5.0.0",
+    "raml-1-parser": "0.1.0-beta.10",
+    "raml-javascript-generator": "^1.0.0-0",
+    "setprototypeof": "^1.0.1",
+    "xtend": "^4.0.1"
+  }
+}
