@@ -1,9 +1,12 @@
 # Webpack RAML Generator
----
 
 Generator using [raml-javascript-generator](https://github.com/danigulyas/webpack-raml-generator) to create callable client API's from RAML files.
 
 ### SYNOPSIS
+
+```bash
+npm i --save-dev danigulyas/webpack-raml-generator
+```
 
 By adding it as a module loader it'll automatically generate a javascript client class from the raml file and include it in the source.
 
